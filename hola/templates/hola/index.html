@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hola Mundo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0d1b2a, #1b4332);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
+    }
+
+    .card {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 20px;
+      padding: 60px 80px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 16px;
+      background: linear-gradient(90deg, #52c234, #061700);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 1.1rem;
+      opacity: 0.75;
+      margin-top: 8px;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 6px 18px;
+      border-radius: 50px;
+      background: rgba(82, 194, 52, 0.2);
+      border: 1px solid #52c234;
+      font-size: 0.85rem;
+      color: #52c234;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>¡Hola Mundo! 🌎</h1>
+    <p>Django 6.1.1 corriendo sobre MySQL 9.7 en Docker</p>
+    <span class="badge">✅ Servidor activo en el puerto 80</span>
+  </div>
+</body>
+</html>
